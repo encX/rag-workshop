@@ -9,3 +9,27 @@ services:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       OPENAI_BASE_URL: ${OPENAI_BASE_URL}
       EMBEDDING_API_HOST: embedding-api:8000
+
+  db:
+    image: reg-hk.agodadev.io/dockerhub/pgvector/pgvector:pg16
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+  embedding-api:
+    build:
+      context: .
+      dockerfile: embedding_api/Dockerfile
+    ports:
+      - "8001:8000"
+    environment:
+      POSTGRES_CONNECTION_STRING: postgresql://postgres:${POSTGRES_PASSWORD}@db:5432/postgres
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL}
+
+volumes:
+  pgdata:
