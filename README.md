@@ -1,6 +1,6 @@
-# rag-workshop
+# RAG Workshop
 
-To install the dependencies, run the following commands:
+## Install dependencies
 
 ```bash
 python -m venv .venv
@@ -8,8 +8,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-To stop the virtual environment, run:
+This will create a virtual environment in the `.venv` directory, activate it, and install the dependencies listed in `requirements.txt`.
 
-```bash
-deactivate
-```
+## [Workshop 1](WORKSHOP1.md)
