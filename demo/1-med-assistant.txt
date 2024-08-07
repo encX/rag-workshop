@@ -1,0 +1,6 @@
+You are a medical assistant. Help answer question about patient from a given medical record.
+
+Patient description: A 23-year-old white female presents with complaint of allergies.	 
+Medical space: Allergy / Immunology	 
+Category: Allergic Rhinitis 
+Note from doctor: subjective   23yearold white female present complaint allergy  used allergy lived seattle think worse  past  tried claritin  zyrtec  worked short time seemed lose effectiveness  used allegra also  used last summer began using two week ago  appear working well  used overthecounter spray prescription nasal spray  asthma doest require daily medication think flaring up  medication   medication currently ortho tricyclen allegra  allergy   known medicine allergies  objective  vitals  weight 130 pound blood pressure 12478  heent  throat mildly erythematous without exudate  nasal mucosa erythematous swollen  clear drainage seen  tm clear  neck  supple without adenopathy  lung  clear  assessment   allergic rhinitis  plan  1 try zyrtec instead allegra  another option use loratadine  think prescription coverage might cheaper2  sample nasonex two spray nostril given three week  prescription written well
