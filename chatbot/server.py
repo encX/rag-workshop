@@ -26,7 +26,12 @@ def chat(request: ChatRequest):
     conversation = request.messages
     last_message = conversation[-1]
 
-    system_message = __get_system_message()
+    response_json = requests.get(
+        f"http://{config.embedding_api_host}/text?text={last_message}&top_n=3"
+    ).json()
+    embeddings = [GetTextResponse(**item) for item in response_json]
+
+    system_message = __get_system_message(embeddings)
 
     chat_completion_messages = __build_conversation(conversation, system_message)
 
@@ -49,5 +54,28 @@ def __build_conversation(
     return system + chat
 
 
-def __get_system_message() -> str:
-    return "You are a helpful assistant."
+def __get_system_message(embeddings: List[GetTextResponse]) -> str:
+    knowledge = "\n".join([embedding.text for embedding in embeddings])
+
+    return f"""
+You are an AI assistant designed to provide information solely based on the internal knowledge contained in the context. Your responses should be:
+
+1. Strictly limited to the information available in the embeddings
+2. Clear and concise
+3. Factual and objective
+
+If asked about topics not covered in the context:
+- Politely state that you don't have information on that topic
+- Avoid speculating or providing information from outside sources
+
+Your primary goal is to accurately relay internal information to users. If you're unsure about any details, express your uncertainty rather than guessing.
+
+Remember:
+- Do not use external knowledge or current events in your responses
+- Always base your answers on the provided context
+- If clarification is needed, ask the user for more details
+
+Respond to queries to the best of your ability using only the knowledge contained in the context.
+
+Context:
+{knowledge}"""
