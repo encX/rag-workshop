@@ -26,6 +26,8 @@ def chat(request: ChatRequest):
     conversation = request.messages
     last_message = conversation[-1]
 
+    ### Add embedding API call here ###
+    
     system_message = __get_system_message()
 
     chat_completion_messages = __build_conversation(conversation, system_message)
