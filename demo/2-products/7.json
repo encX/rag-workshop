@@ -1,0 +1,50 @@
+{
+  "id": 7,
+  "title": "Chanel Coco Noir Eau De",
+  "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+  "category": "fragrances",
+  "price": 129.99,
+  "discountPercentage": 18.64,
+  "rating": 2.76,
+  "stock": 41,
+  "tags": [
+    "fragrances",
+    "perfumes"
+  ],
+  "brand": "Chanel",
+  "sku": "K71HBCGS",
+  "weight": 4,
+  "dimensions": {
+    "width": 21.27,
+    "height": 28,
+    "depth": 11.89
+  },
+  "warrantyInformation": "1 week warranty",
+  "shippingInformation": "Ships in 1 month",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 1,
+      "comment": "Disappointing product!",
+      "date": "2024-05-23T08:56:21.619Z",
+      "reviewerName": "Lincoln Kelly",
+      "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Great product!",
+      "date": "2024-05-23T08:56:21.619Z",
+      "reviewerName": "Lincoln Kelly",
+      "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Excellent quality!",
+      "date": "2024-05-23T08:56:21.619Z",
+      "reviewerName": "Lucas Allen",
+      "reviewerEmail": "lucas.allen@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "60 days return policy",
+  "minimumOrderQuantity": 5
+}

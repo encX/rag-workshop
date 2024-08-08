@@ -1,0 +1,48 @@
+{
+  "id": 29,
+  "title": "Juice",
+  "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+  "category": "groceries",
+  "price": 3.99,
+  "discountPercentage": 5.45,
+  "rating": 3.41,
+  "stock": 99,
+  "tags": [
+    "beverages"
+  ],
+  "sku": "M2K19S06",
+  "weight": 2,
+  "dimensions": {
+    "width": 8.97,
+    "height": 12.26,
+    "depth": 15.05
+  },
+  "warrantyInformation": "1 week warranty",
+  "shippingInformation": "Ships in 1-2 business days",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 4,
+      "comment": "Very satisfied!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Leo Rivera",
+      "reviewerEmail": "leo.rivera@x.dummyjson.com"
+    },
+    {
+      "rating": 2,
+      "comment": "Not worth the price!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Ethan Martinez",
+      "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Excellent quality!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Max Parker",
+      "reviewerEmail": "max.parker@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "90 days return policy",
+  "minimumOrderQuantity": 26
+}

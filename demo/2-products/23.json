@@ -1,0 +1,48 @@
+{
+  "id": 23,
+  "title": "Eggs",
+  "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+  "category": "groceries",
+  "price": 2.99,
+  "discountPercentage": 5.8,
+  "rating": 4.46,
+  "stock": 10,
+  "tags": [
+    "dairy"
+  ],
+  "sku": "YA617RI7",
+  "weight": 4,
+  "dimensions": {
+    "width": 12.3,
+    "height": 10.99,
+    "depth": 15.53
+  },
+  "warrantyInformation": "3 year warranty",
+  "shippingInformation": "Ships overnight",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 2,
+      "comment": "Very unhappy with my purchase!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Mateo Perez",
+      "reviewerEmail": "mateo.perez@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Very happy with my purchase!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Cameron Perez",
+      "reviewerEmail": "cameron.perez@x.dummyjson.com"
+    },
+    {
+      "rating": 5,
+      "comment": "Very happy with my purchase!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Aurora Barnes",
+      "reviewerEmail": "aurora.barnes@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "30 days return policy",
+  "minimumOrderQuantity": 43
+}

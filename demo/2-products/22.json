@@ -1,0 +1,49 @@
+{
+  "id": 22,
+  "title": "Dog Food",
+  "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+  "category": "groceries",
+  "price": 10.99,
+  "discountPercentage": 18.15,
+  "rating": 2.74,
+  "stock": 40,
+  "tags": [
+    "pet supplies",
+    "dog food"
+  ],
+  "sku": "A6QRCH37",
+  "weight": 2,
+  "dimensions": {
+    "width": 29.39,
+    "height": 29.77,
+    "depth": 20.54
+  },
+  "warrantyInformation": "1 year warranty",
+  "shippingInformation": "Ships in 1 month",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "Highly impressed!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Leo Rivera",
+      "reviewerEmail": "leo.rivera@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Highly recommended!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Alexander Jones",
+      "reviewerEmail": "alexander.jones@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Would buy again!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Addison Wright",
+      "reviewerEmail": "addison.wright@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "90 days return policy",
+  "minimumOrderQuantity": 29
+}

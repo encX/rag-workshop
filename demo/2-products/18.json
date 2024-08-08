@@ -1,0 +1,49 @@
+{
+  "id": 18,
+  "title": "Cat Food",
+  "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+  "category": "groceries",
+  "price": 8.99,
+  "discountPercentage": 9.57,
+  "rating": 2.88,
+  "stock": 13,
+  "tags": [
+    "pet supplies",
+    "cat food"
+  ],
+  "sku": "C3F8QN6O",
+  "weight": 9,
+  "dimensions": {
+    "width": 15.4,
+    "height": 13.97,
+    "depth": 25.13
+  },
+  "warrantyInformation": "3 months warranty",
+  "shippingInformation": "Ships in 1-2 business days",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "Very pleased!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Mateo Bennett",
+      "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+    },
+    {
+      "rating": 5,
+      "comment": "Very pleased!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Aurora Barnes",
+      "reviewerEmail": "aurora.barnes@x.dummyjson.com"
+    },
+    {
+      "rating": 5,
+      "comment": "Great value for money!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Ellie Stewart",
+      "reviewerEmail": "ellie.stewart@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "7 days return policy",
+  "minimumOrderQuantity": 48
+}

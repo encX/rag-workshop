@@ -1,0 +1,48 @@
+{
+  "id": 19,
+  "title": "Chicken Meat",
+  "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+  "category": "groceries",
+  "price": 9.99,
+  "discountPercentage": 10.46,
+  "rating": 4.61,
+  "stock": 69,
+  "tags": [
+    "meat"
+  ],
+  "sku": "G5YEHW7B",
+  "weight": 7,
+  "dimensions": {
+    "width": 15.96,
+    "height": 29.24,
+    "depth": 26.25
+  },
+  "warrantyInformation": "Lifetime warranty",
+  "shippingInformation": "Ships in 1 month",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 5,
+      "comment": "Very satisfied!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Sophia Jones",
+      "reviewerEmail": "sophia.jones@x.dummyjson.com"
+    },
+    {
+      "rating": 5,
+      "comment": "Great value for money!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Maya Reed",
+      "reviewerEmail": "maya.reed@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Highly recommended!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Harper Turner",
+      "reviewerEmail": "harper.turner@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "7 days return policy",
+  "minimumOrderQuantity": 46
+}

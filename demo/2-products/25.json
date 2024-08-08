@@ -1,0 +1,48 @@
+{
+  "id": 25,
+  "title": "Green Bell Pepper",
+  "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+  "category": "groceries",
+  "price": 1.29,
+  "discountPercentage": 15.5,
+  "rating": 4.28,
+  "stock": 89,
+  "tags": [
+    "vegetables"
+  ],
+  "sku": "HU7S7VQ0",
+  "weight": 7,
+  "dimensions": {
+    "width": 7.32,
+    "height": 14.31,
+    "depth": 21.38
+  },
+  "warrantyInformation": "5 year warranty",
+  "shippingInformation": "Ships overnight",
+  "availabilityStatus": "In Stock",
+  "reviews": [
+    {
+      "rating": 4,
+      "comment": "Excellent quality!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Maya Reed",
+      "reviewerEmail": "maya.reed@x.dummyjson.com"
+    },
+    {
+      "rating": 4,
+      "comment": "Would buy again!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Madison Collins",
+      "reviewerEmail": "madison.collins@x.dummyjson.com"
+    },
+    {
+      "rating": 5,
+      "comment": "Would buy again!",
+      "date": "2024-05-23T08:56:21.620Z",
+      "reviewerName": "Ethan Thompson",
+      "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+    }
+  ],
+  "returnPolicy": "30 days return policy",
+  "minimumOrderQuantity": 1
+}
