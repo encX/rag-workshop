@@ -26,7 +26,6 @@ services:
     environment:
       POSTGRES_CONNECTION_STRING: postgresql://postgres:med-record-2024@db:5432/postgres
       OPENAI_API_KEY: ${OPENAI_API_KEY}
-      OPENAI_BASE_URL: ${OPENAI_BASE_URL}
 
   search-web:
     build:
