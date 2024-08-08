@@ -31,7 +31,7 @@ Let's modify at the `### Add embedding API call here ###`. Replace this text wit
 
 ```python
     response_json = requests.get(
-        f"http://{config.embedding_api_host}/text?text={last_message}&top_n=3"
+        f"http://{config.embedding_api_host}/text?text={last_message}&top_n=10"
     ).json()
     embeddings = [GetTextResponse(**item) for item in response_json]
 ```

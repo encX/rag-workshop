@@ -11,7 +11,7 @@ services:
       EMBEDDING_API_HOST: embedding-api:8000
 
   db:
-    image: reg-hk.agodadev.io/dockerhub/pgvector/pgvector:pg16
+    image: pgvector/pgvector:pg16
     restart: always
     ports:
       - "5432:5432"
