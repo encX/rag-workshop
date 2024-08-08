@@ -1,0 +1,34 @@
+id: 24
+title: Fish Steak
+description: Quality fish steak, suitable for grilling, baking, or pan-searing.
+category: groceries
+price: 14.99
+discountPercentage: 7
+rating: 4.83
+stock: 99
+tags:
+  - seafood
+sku: XNIH1MTA
+weight: 8
+dimensions:
+  width: 20.14
+  height: 8.4
+  depth: 10.01
+warrantyInformation: 1 year warranty
+shippingInformation: Ships in 1 month
+availabilityStatus: In Stock
+reviews:
+  - rating: 5
+    comment: Great value for money!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Michael Johnson
+  - rating: 4
+    comment: Would buy again!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Julian Newton
+  - rating: 5
+    comment: Excellent quality!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Lila Hudson
+returnPolicy: 30 days return policy
+minimumOrderQuantity: 49

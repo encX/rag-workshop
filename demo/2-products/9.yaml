@@ -1,0 +1,38 @@
+id: 9
+title: Dolce Shine Eau de
+description: Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance,
+  featuring notes of mango, jasmine, and blonde woods. It's a joyful and
+  youthful scent.
+category: fragrances
+price: 69.99
+discountPercentage: 11.47
+rating: 2.68
+stock: 3
+tags:
+  - fragrances
+  - perfumes
+brand: Dolce & Gabbana
+sku: 1NBFK980
+weight: 5
+dimensions:
+  width: 17
+  height: 24.57
+  depth: 13.3
+warrantyInformation: 5 year warranty
+shippingInformation: Ships in 1-2 business days
+availabilityStatus: Low Stock
+reviews:
+  - rating: 4
+    comment: Very satisfied!
+    date: 2024-05-23T08:56:21.619Z
+    reviewerName: Xavier Wright
+  - rating: 1
+    comment: Poor quality!
+    date: 2024-05-23T08:56:21.619Z
+    reviewerName: Mila Hernandez
+  - rating: 5
+    comment: Very happy with my purchase!
+    date: 2024-05-23T08:56:21.619Z
+    reviewerName: Sophia Brown
+returnPolicy: 30 days return policy
+minimumOrderQuantity: 9

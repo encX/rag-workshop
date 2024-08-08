@@ -1,0 +1,35 @@
+id: 28
+title: Ice Cream
+description: Creamy and delicious ice cream, available in various flavors for a
+  delightful treat.
+category: groceries
+price: 5.49
+discountPercentage: 7.58
+rating: 3.77
+stock: 76
+tags:
+  - desserts
+sku: VEZMU1EQ
+weight: 5
+dimensions:
+  width: 17.66
+  height: 24.49
+  depth: 25.98
+warrantyInformation: 2 year warranty
+shippingInformation: Ships in 2 weeks
+availabilityStatus: In Stock
+reviews:
+  - rating: 5
+    comment: Great product!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Elena Baker
+  - rating: 5
+    comment: Highly impressed!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Madeline Simpson
+  - rating: 5
+    comment: Very happy with my purchase!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Caleb Nelson
+returnPolicy: No return policy
+minimumOrderQuantity: 19

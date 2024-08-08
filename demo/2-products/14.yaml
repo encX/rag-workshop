@@ -1,0 +1,38 @@
+id: 14
+title: Knoll Saarinen Executive Conference Chair
+description: The Knoll Saarinen Executive Conference Chair is a modern and
+  ergonomic chair, perfect for your office or conference room with its timeless
+  design.
+category: furniture
+price: 499.99
+discountPercentage: 15.23
+rating: 4.11
+stock: 47
+tags:
+  - furniture
+  - office chairs
+brand: Knoll
+sku: RKHVJ4FE
+weight: 3
+dimensions:
+  width: 16.59
+  height: 21.46
+  depth: 29.07
+warrantyInformation: Lifetime warranty
+shippingInformation: Ships in 3-5 business days
+availabilityStatus: In Stock
+reviews:
+  - rating: 4
+    comment: Very happy with my purchase!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Leah Gutierrez
+  - rating: 4
+    comment: Would buy again!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Nolan Gonzalez
+  - rating: 2
+    comment: Waste of money!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Stella Morris
+returnPolicy: 30 days return policy
+minimumOrderQuantity: 5

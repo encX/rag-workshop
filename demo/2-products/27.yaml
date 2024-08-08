@@ -1,0 +1,35 @@
+id: 27
+title: Honey Jar
+description: Pure and natural honey in a convenient jar, perfect for sweetening
+  beverages or drizzling over food.
+category: groceries
+price: 6.99
+discountPercentage: 1.91
+rating: 3.5
+stock: 25
+tags:
+  - condiments
+sku: BTBNIIOU
+weight: 9
+dimensions:
+  width: 26.53
+  height: 27.11
+  depth: 6.63
+warrantyInformation: 2 year warranty
+shippingInformation: Ships overnight
+availabilityStatus: In Stock
+reviews:
+  - rating: 4
+    comment: Fast shipping!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Nicholas Bailey
+  - rating: 5
+    comment: Awesome product!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Gabriel Hayes
+  - rating: 5
+    comment: Highly impressed!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: James Garcia
+returnPolicy: 90 days return policy
+minimumOrderQuantity: 1

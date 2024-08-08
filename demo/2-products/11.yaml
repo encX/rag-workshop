@@ -1,0 +1,37 @@
+id: 11
+title: Annibale Colombo Bed
+description: The Annibale Colombo Bed is a luxurious and elegant bed frame,
+  crafted with high-quality materials for a comfortable and stylish bedroom.
+category: furniture
+price: 1899.99
+discountPercentage: 0.29
+rating: 4.14
+stock: 47
+tags:
+  - furniture
+  - beds
+brand: Annibale Colombo
+sku: 4KMDTZWF
+weight: 3
+dimensions:
+  width: 28.75
+  height: 26.88
+  depth: 24.47
+warrantyInformation: 2 year warranty
+shippingInformation: Ships overnight
+availabilityStatus: In Stock
+reviews:
+  - rating: 4
+    comment: Great value for money!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Julian Newton
+  - rating: 5
+    comment: Would buy again!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Madison Collins
+  - rating: 4
+    comment: Would buy again!
+    date: 2024-05-23T08:56:21.620Z
+    reviewerName: Clara Berry
+returnPolicy: 7 days return policy
+minimumOrderQuantity: 1
