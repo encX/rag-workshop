@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Result for "{{ term }}"</h1>
+        <form action="/search" method="get">
+            <input type="text" name="term" value="{{ term }}">
+            <button type="submit">Search</button>
+        </form>
+        <div class="results">
+            {% if embeddings %}
+                {% for embedding in embeddings %}
+                    <div class="result-item">
+                        <p class="source">{{ embedding.source }}</p>
+                        <p class="text">{{ embedding.text }}</p>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p class="no-results">No results found.</p>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>

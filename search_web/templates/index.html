@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Search your internal knowledge</h1>
+        <form action="/search" method="get">
+            <input type="text" name="term" value="{{ term }}">
+            <button type="submit">Search</button>
+        </form>
+    </main>
+</body>
+</html>

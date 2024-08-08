@@ -13,3 +13,5 @@ This will create a virtual environment in the `.venv` directory, activate it, an
 ## [Workshop 1](WORKSHOP1.md)
 
 ## [Workshop 2](WORKSHOP2.md)
+
+## [Workshop 3](WORKSHOP3.md)
