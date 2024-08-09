@@ -4,7 +4,11 @@ This project is the boilerplate for the **"Build your own AI-powered internal se
 
 This workshop's audience is developers who have never worked with AI/LLM before. The goal is to introduce the concept of how LLM works, RAG (Retrieval-Augmented Generation), Embeddings. And build a simple search engine and a chatbot using these concepts.
 
+**[See slide deck here](https://github.com/user-attachments/files/16560825/byoai-v2.pdf)**
+
 ## Project Structure
+
+> The `main` branch has incomplete code. The workshop divided into 3 stages. Each stage has its own branch. `main` branch has the starting code for the workshop. Then, `pre-workshop-2` branch has the completed code from stage 1, and so on. The final code is in the `final` branch.
 
 There are 4 main components in this project:
 
@@ -13,25 +17,19 @@ There are 4 main components in this project:
 - **Chatbot UI** - A simple chatbot UI to chat with information retrieved via the Embedding API.
 - **Retriever** - A simple script to scan knowledge base and save the text to the Embedding API.
 
-![Project Structure](docs/diagram.png)
+Each component is its own service and communicates with each other via REST API. The system diagram is as follows:
+
+![System diagram](docs/diagram.png)
+
+The folder structure is as follows:
+
+- `common` - Contains the common code used by multiple components. (config, LLM, models)
+- `embedding-api`, `search_web`, `chatbot`, `retriever` - Contains the code for each component. The `server.py` file is the entry point of each.
+- `docs` - Contains the images and other files used in the README.
+- `demo` - Contains sample data or prompts.
 
 This workshop primaliry uses OpenAI services, so you need to have an OpenAI account and API key to run this project. But feel free to update the code (`common/llm.py`) to use any other provider.
 
-## Setup
-
-This project uses `python >= 3.11`. To setup the project, run the following commands:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-This will create a virtual environment in the `.venv` directory, activate it, and install the dependencies listed in `requirements.txt`.
-
-> If you are not familiar with developing python projects, virtual environment is a way to isolate the dependencies of a project from the system dependencies. This way, you can have different versions of the same package in different projects without any conflict. Read more about it [here](https://docs.python.org/3/library/venv.html).
-
-> Virtual environment is activated per shell session. So, you need to run `source .venv/bin/activate` everytime you open a new terminal.
-
 
 ## [Then, checkout wiki for workshop handbook](https://github.com/encX/rag-workshop/wiki)
+Again, to skip the workshop, you can directly go to the `final` branch to see the final code.
