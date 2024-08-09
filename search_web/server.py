@@ -24,7 +24,10 @@ def search(request: Request, term: str):
         return RedirectResponse(url="/")
 
     # send search_term to get embeddings from embedding_api
-    embeddings = []
+    response_json = requests.get(
+        f"http://{config.embedding_api_host}/text?text={term}&top_n=10"
+    ).json()
+    embeddings = [GetTextResponse(**item) for item in response_json]
 
     return templates.TemplateResponse(
         name="search_result.html",
